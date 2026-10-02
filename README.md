@@ -1,7 +1,7 @@
 # Workflow for a .NET project
 
 ## Setup
-rename github-folder folder to .github
+rename **github-folder** folder to **.github**
 
 ## Steps to follow for every feature
 
