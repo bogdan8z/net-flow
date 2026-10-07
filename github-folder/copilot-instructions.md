@@ -30,7 +30,7 @@ Assume all code will run in production.
 
 Primary technologies:
 
-- .NET 8+
+- .NET latest stable version
 - ASP.NET Core
 - Entity Framework Core
 - SQL Server
