@@ -42,8 +42,12 @@ Step 10:
 Generate delivery artifacts according to
 10-delivery.prompt.md
 
-in features folder create a subfolder feat-AAAA where AAA is 0001,0002,0003,...9999
-inside feat-AAAA add output result files for steps: 1-requirements.md, 2-architecture.md, 6-review, 7-security-review.md, 8-performance-review.md, 9-documentation.md, 10-pr-summary.md 
+Mandatory:
+When a new run starts, create a new subfolder ( inside the features folder) named feat-AAAA where AAAA is 0001, 0002, 0003, ... 9999.
+Use the next available numeric suffix, never reuse an existing feature folder.
+Inside the new feat-AAAA folder, save the output result files for these steps: 1-requirements.md, 2-architecture.md, 6-review.md, 7-security-review.md, 8-performance-review.md, 9-documentation.md, 10-pr-summary.md.
+If a feature folder already exists, do not overwrite it; create the next unused feat-AAAA folder instead.
+
 
 
 Requirement:
